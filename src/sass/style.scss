@@ -1,0 +1,49 @@
+@import 'libs/modern-normalize.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+html {
+	font-family: "Actay", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+	margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+	list-style: none;
+	padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+img {
+	display: block;
+	max-inline-size: 100%;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/main';
+@import 'blocks/media';
+@import 'blocks/carousel';
